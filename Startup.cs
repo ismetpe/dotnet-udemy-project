@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace Desktop
+namespace dotnet_udemy_project
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace Desktop
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Desktop", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet_udemy_project", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Desktop
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Desktop v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet_udemy_project v1"));
             }
 
             app.UseHttpsRedirection();

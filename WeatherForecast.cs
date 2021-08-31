@@ -1,6 +1,6 @@
 using System;
 
-namespace Desktop
+namespace dotnet_udemy_project
 {
     public class WeatherForecast
     {

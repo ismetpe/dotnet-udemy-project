@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PgTGWj+YF5zAcDytmLBQC8+SgzDAi9u/VyJgaCDt8yxQVUTDSqcKbwmD5LdZ0AdRvDCJE1SQskAhfMfJpT0dYw==",
+  "dgSpecHash": "1U2dZoORw+yVD97gBw+5SOtYi0uRwAG8ah1+PFxZTXZRvAG2JW9JdGKDtAuQwcx0FR4kY6YwMuXP+JPGaMRhZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetpe\\Desktop\\Desktop.csproj",
+  "projectFilePath": "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\dotnet-udemy-project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetpe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ismetpe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

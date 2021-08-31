@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismetpe\\Desktop\\Desktop.csproj": {}
+    "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\dotnet-udemy-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismetpe\\Desktop\\Desktop.csproj": {
+    "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\dotnet-udemy-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismetpe\\Desktop\\Desktop.csproj",
-        "projectName": "Desktop",
-        "projectPath": "C:\\Users\\ismetpe\\Desktop\\Desktop.csproj",
+        "projectUniqueName": "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\dotnet-udemy-project.csproj",
+        "projectName": "dotnet-udemy-project",
+        "projectPath": "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\dotnet-udemy-project.csproj",
         "packagesPath": "C:\\Users\\ismetpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismetpe\\Desktop\\obj\\",
+        "outputPath": "C:\\Users\\ismetpe\\Desktop\\dotnet-udemy-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
