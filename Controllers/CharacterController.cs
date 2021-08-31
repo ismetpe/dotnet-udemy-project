@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using dotnet_udemy_project.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,10 +8,22 @@ namespace dotnet_udemy_project.Controllers
     [Route("[controller]")]
     public class CharacterController : ControllerBase
     {
-         private static Character knight = new Character(); 
+         private static List<Character> characters = new List<Character>(){
+             new Character(),
+             new Character{ Name = "Sam"}
 
-         public IActionResult Get(){
-             return Ok(knight);
+         };
+         
+
+        [HttpGet]
+         public ActionResult<List<Character> > Get(){
+             return Ok(characters);
+         }
+
+         [HttpGet]
+
+         public ActionResult<Character> GetSingle(){
+             return Ok(characters[0]);
          }
     }
 }
